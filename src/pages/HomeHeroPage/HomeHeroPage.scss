@@ -1,7 +1,12 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: rgb(27, 89, 89);
-  height: calc(100vh - 70px);
+
+  & h1 {
+    font-size: 80px;
+  }
+
 }
+

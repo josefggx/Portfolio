@@ -1,11 +1,13 @@
+import { HeroFigure } from '../../components/HeroFigure/HeroFigure';
 import './HomeHeroPage.scss';
 
 export const HomeHeroPage = () => {
   return (
     <>
-      <div className="hero">
-        <h1>HomeHeroPage</h1>
-      </div>
+      <section id='home' className="section hero">
+        <h1>Jose Gutierrez</h1>
+        <HeroFigure />
+      </section>
     </>
   );
 };

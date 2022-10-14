@@ -1,7 +1,8 @@
-import React from 'react'
+import './HeroFigure.scss'
 
 export const HeroFigure = () => {
   return (
-    <div>HeroFigure</div>
-  )
+    <div className="figure">
+    </div>
+  );
 }

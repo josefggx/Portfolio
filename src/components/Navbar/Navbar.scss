@@ -3,14 +3,14 @@
   justify-content: space-around;
   align-items: center;
   position: fixed;
-  height: 64px;
+  height: 68px;
   width: 100%;
-  background-color: #161b22;
+  background-color: #1f1f1f;
 
   & .navbar__logo {
     font-weight: 900;
     font-size: 2.7rem;
-    color: #66d9ed;
+    color: #8d73be;
   }
 
   & .navbar__items > a {
@@ -23,7 +23,7 @@
     transition: all 0.3s linear;
 
     &:hover {
-      color: #66d9ed;
+      color: #bb66ed;
     }
     &::before {
       content: '';
@@ -32,7 +32,7 @@
       bottom: 0;
       width: 0;
       height: 1px;
-      background: #66d9ed;
+      background: #c766ed;
       transition: all 0.45s;
     }
     &:hover::before {

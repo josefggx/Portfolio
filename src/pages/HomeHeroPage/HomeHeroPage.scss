@@ -1,12 +1,64 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: rgb(27, 89, 89);
+  // justify-content: space-around;
+  justify-content: center;
+  gap: 12vw;
+  background: rgb(25, 23, 28);
+  background: linear-gradient(270deg, rgb(42, 36, 60) 0%, rgb(25, 23, 28) 100%);
+  background: -moz-linear-gradient(
+    270deg,
+    rgb(42, 36, 60) 0%,
+    rgb(25, 23, 28) 100%
+  );
+  background: -webkit-linear-gradient(
+    270deg,
+    rgb(42, 36, 60) 0%,
+    rgb(25, 23, 28) 100%
+  );
 
-  & h1 {
-    font-size: 80px;
+  // & .hero__header {
+  //   text-align: center;
+  // }
+
+  & .hero__title {
+    font-size: 5.5vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
   }
 
+  & .hero__subtitle {
+    font-size: calc(20px + 1 * ((100vw - 576px) / 1024));
+    font-family: 'Poppins', sans-serif;
+  }
 }
 
+@media (max-width: 568px) {
+  .hero__header {
+    text-align: center;
+    z-index: 1;
+
+    & .hero__title {
+      font-size: 44px;
+    }
+
+    & .hero__subtitle {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (min-width: 568px) and (max-width: 768px) {
+  .hero__header {
+    text-align: center;
+    z-index: 1;
+
+    & .hero__title {
+      font-size: 60px;
+    }
+
+    & .hero__subtitle {
+      font-size: 24px;
+    }
+  }
+}

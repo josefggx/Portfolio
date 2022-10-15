@@ -3,7 +3,7 @@
   align-items: center;
   // justify-content: space-around;
   justify-content: center;
-  gap: 12vw;
+  gap: 11vw;
   background: rgb(25, 23, 28);
   background: linear-gradient(270deg, rgb(42, 36, 60) 0%, rgb(25, 23, 28) 100%);
   background: -moz-linear-gradient(
@@ -17,9 +17,9 @@
     rgb(25, 23, 28) 100%
   );
 
-  // & .hero__header {
-  //   text-align: center;
-  // }
+  & .hero__header {
+    z-index: 2;
+  }
 
   & .hero__title {
     font-size: 5.5vw;

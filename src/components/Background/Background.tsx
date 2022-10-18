@@ -23,7 +23,7 @@ export const Background = () => {
             value: 355,
             density: {
               enable: true,
-              value_area: 800,
+              value_area: 900,
             },
           },
           color: {
@@ -45,7 +45,7 @@ export const Background = () => {
             },
           },
           opacity: {
-            value: 0.45,
+            value: 0.4,
             random: false,
             anim: {
               enable: true,
@@ -59,7 +59,7 @@ export const Background = () => {
             random: true,
             anim: {
               enable: true,
-              speed: 2,
+              speed: 1,
               size_min: 0,
               sync: false,
             },
@@ -73,7 +73,7 @@ export const Background = () => {
           },
           move: {
             enable: true,
-            speed: 0.4,
+            speed: 0.5,
             direction: 'none',
             random: true,
             straight: false,
@@ -108,13 +108,13 @@ export const Background = () => {
             },
             bubble: {
               distance: 80,
-              size: 2.5,
+              size: 2.1,
               duration: 3,
               opacity: 1,
               speed: 3,
-              color: {
-                value: '#deafff',
-              },
+              // color: {
+              //   value: '#deafff',
+              // },
             },
             repulse: {
               distance: 200,

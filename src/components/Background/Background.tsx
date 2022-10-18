@@ -23,7 +23,7 @@ export const Background = () => {
             value: 355,
             density: {
               enable: true,
-              value_area: 900,
+              value_area: 700,
             },
           },
           color: {

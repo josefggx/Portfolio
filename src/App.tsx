@@ -1,4 +1,5 @@
 import { Navigate, Route, Routes } from 'react-router-dom';
+import { Cursor } from './components/Cursor/Cursor';
 import { Navbar } from './components/Navbar/Navbar';
 import { AboutPage } from './pages/AboutPage';
 import { HomeContactPage } from './pages/HomeContactPage';
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      {/* <Cursor /> */}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

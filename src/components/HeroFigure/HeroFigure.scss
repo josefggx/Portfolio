@@ -17,9 +17,9 @@
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
   perspective: 1000px;
-  -webkit-animation: transform 50s ease-in-out infinite both alternate,
+  -webkit-animation: transform 35s ease-in-out infinite both alternate,
     movement 40s ease-in-out infinite both;
-  animation: transform 25s ease-in-out infinite both alternate,
+  animation: transform 35s ease-in-out infinite both alternate,
     movement 40s ease-in-out infinite both;
 }
 
@@ -79,7 +79,7 @@
     transform: none;
   }
   50% {
-    transform: translateY(20%) rotateY(10deg);
+    transform: translateY(10%) rotateY(10deg);
   }
 }
 
@@ -89,7 +89,7 @@
     transform: none;
   }
   50% {
-    transform: translateY(20%) rotateY(10deg);
+    transform: translateY(10%) rotateY(10deg);
   }
 }
 
@@ -97,5 +97,10 @@
   .figure {
     position: absolute;
     z-index: 0;
+  }
+
+  .figure::before {
+    width: 35vh;
+    height: 35vh;
   }
 }

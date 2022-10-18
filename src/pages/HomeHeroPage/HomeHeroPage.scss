@@ -22,13 +22,14 @@
   }
 
   & .hero__title {
-    font-size: 5.5vw;
+    font-size: 5vw;
     color: white;
     font-family: 'Poppins', sans-serif;
   }
 
   & .hero__subtitle {
-    font-size: calc(20px + 1 * ((100vw - 576px) / 1024));
+    // font-size: calc(20px + 1 * ((100vw - 576px) / 1024));
+    font-size: 1.3vw;
     font-family: 'Poppins', sans-serif;
   }
 }
@@ -39,11 +40,11 @@
     z-index: 1;
 
     & .hero__title {
-      font-size: 44px;
+      font-size: 40px;
     }
 
     & .hero__subtitle {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 }
@@ -58,7 +59,7 @@
     }
 
     & .hero__subtitle {
-      font-size: 24px;
+      font-size: 22px;
     }
   }
 }

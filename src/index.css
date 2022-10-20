@@ -75,6 +75,36 @@ Global Styles
 
 body {
   font-size: 1.6rem;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(25, 23, 28);
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a85fbc #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #1f1f1f;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #54355e;
+  border-radius: 10px;
+  border: 1px solid #1f1f1f;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #764c84;
 }
 
 a {
@@ -84,13 +114,6 @@ a {
 }
 a:hover {
   color: #535bf2;
-}
-
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-  background-color: rgb(25, 23, 28);
 }
 
 h1 {

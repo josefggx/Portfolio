@@ -1,5 +1,6 @@
 import { Background } from '../../components/Background/Background';
 import { HeroFigure } from '../../components/HeroFigure/HeroFigure';
+import { ScrollIcon } from '../../components/ScrollIcon/ScrollIcon';
 import './HomeHeroPage.scss';
 
 export const HomeHeroPage = () => {
@@ -12,6 +13,7 @@ export const HomeHeroPage = () => {
           <h1 className="hero__title">Jose Gutierrez</h1>
           <p className="hero__subtitle">FRONTEND DEVELOPER</p>
         </div>
+        <ScrollIcon />
       </section>
     </>
   );

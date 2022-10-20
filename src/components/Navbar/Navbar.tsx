@@ -22,7 +22,11 @@ export const Navbar = () => {
         className="navbar__logo"
         onClick={handleHashChange}
       >
-        <span className="navbar__logo">Josefggx._</span>
+        <div className="navbar__logoborder">
+          <div className="navbar__logo">
+            <div className="logo__text">JG</div>
+          </div>
+        </div>
       </HashLink>
       <div className={`navbar__items ${isOpen && 'open'}`}>
         <HashLink smooth to="#about" onClick={handleHashChange}>

@@ -1,0 +1,136 @@
+.mouse__container {
+  position: absolute;
+  bottom: 50px;
+}
+
+.mouse {
+  width: 40px;
+  height: 60px;
+  border-radius: 20px;
+  border: 2px solid rgb(234, 231, 231);
+  cursor: pointer;
+  z-index: 3;
+  transition: all 0.3s;
+
+  // &:hover {
+  //   border: 2px solid rgb(215, 118, 244);
+  // }
+
+  &:hover:after {
+    border-top-color: rgb(229, 144, 255);
+  }
+}
+
+.mouse:before,
+.mouse:after {
+  content: '';
+  display: block;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+/* Sixth */
+.mouse:before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 10px;
+  left: calc(50% - 5px);
+  border: 2px solid rgba(255, 255, 255, 0.734);
+}
+.mouse:after {
+  top: 30px;
+  left: calc(50% - 5px);
+  border: 5px solid transparent;
+  border-top-color: rgb(255, 255, 255);
+  -webkit-animation: mouse__arrow 1.4s ease-in-out infinite;
+  animation: mouse__arrow 1.4s ease-in-out infinite;
+}
+
+@-webkit-keyframes mouse__arrow {
+  20%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(9px);
+  }
+  80% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes mouse__arrow {
+  20%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(9px);
+  }
+  80% {
+    transform: translateY(-3px);
+  }
+}
+
+// @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// body {
+//   background: #212121;
+//   font-family: 'Roboto', sans-serif;
+// }
+// .scroll-down {
+//   bottom: 0;
+//   height: 100px;
+//   left: 0;
+//   position: absolute;
+//   right: 0;
+//   text-align: center;
+//   z-index: 1;
+// }
+// .scroll-down-text {
+//   color: #d8d8d8;
+//   font-weight: bold;
+// }
+// .scroll-down-bar {
+//   background: #d8d8d8;
+//   bottom: 0;
+//   display: inline-block;
+//   height: 65px;
+//   left: 0;
+//   margin: 0 auto;
+//   position: absolute;
+//   right: 0;
+//   width: 2px;
+// }
+// .scroll-down-bar::before {
+//   animation: scrollBall 2s ease-in-out infinite;
+//   background: #f177e0;
+//   border-radius: 50%;
+//   content: '';
+//   display: inline-block;
+//   height: 10px;
+//   left: calc(50% - 5px);
+//   position: absolute;
+//   top: 10px;
+//   width: 10px;
+// }
+// @-moz-keyframes scrollBall {
+//   40%, 60% {
+//     transform: translateY(32px);
+//   }
+// }
+// @-webkit-keyframes scrollBall {
+//   40%, 60% {
+//     transform: translateY(32px);
+//   }
+// }
+// @-o-keyframes scrollBall {
+//   40%, 60% {
+//     transform: translateY(32px);
+//   }
+// }
+// @keyframes scrollBall {
+//   40%, 60% {
+//     transform: translateY(32px);
+//   }
+// }

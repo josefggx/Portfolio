@@ -1,0 +1,22 @@
+.techstack__title {
+  margin-bottom: 8px;
+}
+
+.techstack__list {
+  -moz-column-count: 4;
+  -moz-column-gap: 22px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 22px;
+  column-count: 4;
+  column-gap: 22px;
+
+  .techstack__item {
+    list-style-type: square;
+    transition: 0.1s;
+
+    // TODO: Look if theres a way of only changing the list style on hover and NOT the text
+    &:hover {
+      color: rgb(214, 122, 214);
+    }
+  }
+}

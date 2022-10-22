@@ -32,8 +32,8 @@ export const Navbar = () => {
         <HashLink smooth to="#about" onClick={handleHashChange}>
           About
         </HashLink>
-        <HashLink smooth to="#projects" onClick={handleHashChange}>
-          Projects
+        <HashLink smooth to="#work" onClick={handleHashChange}>
+          Work
         </HashLink>
         <HashLink smooth to="#contact" onClick={handleHashChange}>
           Contact

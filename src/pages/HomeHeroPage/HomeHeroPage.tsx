@@ -10,7 +10,7 @@ export const HomeHeroPage = () => {
         <Background />
         <HeroFigure />
         <div className="hero__header">
-          <h1 className="hero__title">Jose Gutierrez</h1>
+          <h1 className="hero__title">José Gutiérrez</h1>
           <p className="hero__subtitle">FRONTEND DEVELOPER</p>
         </div>
         <ScrollIcon />

@@ -9,7 +9,7 @@ export const HomeAboutPage = () => {
           About me<span>.</span>
         </h1>
         <div className="about__content">
-          <p className="about__text">
+          <div className="about__text">
             Amet fugiat adipisicing proident id commodo aute voluptate ad aute
             aliquip dolore aliqua. Lorem eu ea eiusmod in est quis non sint
             ipsum anim aliqua anim. Fugiat adipisicing cupidatat amet voluptate
@@ -24,7 +24,7 @@ export const HomeAboutPage = () => {
             <br />
             <br />
             <TechStack />
-          </p>
+          </div>
           <div className="about__image"></div>
         </div>
       </div>

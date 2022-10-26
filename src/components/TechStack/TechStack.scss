@@ -4,17 +4,18 @@
 
 .techstack__list {
   -moz-column-count: 4;
-  -moz-column-gap: 20px;
+  -moz-column-gap: 4px;
   -webkit-column-count: 4;
-  -webkit-column-gap: 20px;
-  column-count: 4;
-  column-gap: 20px;
+  -webkit-column-gap: 2px;
+  column-count: 3;
+  column-gap: 8px;
 
   .techstack__item {
     list-style-type: square;
     transition: 0.1s;
     list-style: none;
     margin-bottom: 4px;
+    font-size: 1.5rem;
 
     &::before {
       content: '✦ ';

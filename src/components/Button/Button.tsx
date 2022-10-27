@@ -1,12 +1,14 @@
+import { MouseEventHandler } from 'react';
 import './Button.scss';
 
 interface ButtonProps {
   text: String;
+  onClick: MouseEventHandler<HTMLButtonElement>;
 }
 
-export const Button = ({ text }: ButtonProps) => {
+export const Button = ({ text, onClick }: ButtonProps) => {
   return (
-    <button className="btn">
+    <button onClick={onClick} className="btn">
       <span>{text}</span>
     </button>
   );

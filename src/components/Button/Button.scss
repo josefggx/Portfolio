@@ -1,5 +1,50 @@
 .btn {
   text-align: center;
-  background-color: azure;
+  background-color: transparent;
+  color: white;
+  border-radius: 1px solid white;
   flex-shrink: 0;
+}
+
+.btn {
+  border: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 1.4rem;
+  background-color: rgb(54, 54, 54);
+  padding: 10px 32px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+
+  .btn:focus {
+    border: none;
+  }
+
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: rgb(153, 97, 153);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }

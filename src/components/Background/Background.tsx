@@ -107,8 +107,8 @@ export const Background = () => {
               },
             },
             bubble: {
-              distance: 80,
-              size: 2.1,
+              distance: 240,
+              size: 2.5,
               duration: 3,
               opacity: 1,
               speed: 3,

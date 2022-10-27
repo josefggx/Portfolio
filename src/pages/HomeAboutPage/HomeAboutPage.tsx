@@ -1,10 +1,15 @@
 import { Link } from 'react-router-dom';
+import { Avatar } from '../../components/Avatar/Avatar';
 import { Button } from '../../components/Button/Button';
 import { TechStack } from '../../components/TechStack/TechStack';
 import { Title } from '../../components/Title/Title';
 import './HomeAboutPage.scss';
 
 export const HomeAboutPage = () => {
+  const onClickResume = () => {
+    window.open('resume-josegutierrez.pdf', '_blank');
+  };
+
   return (
     <section id="about" className="section about">
       <div className="about__container">
@@ -25,8 +30,11 @@ export const HomeAboutPage = () => {
             <TechStack />
           </div>
           <div className="about__info">
-            <div className="about__image"></div>
-            <Button text="Resume" />
+            <div className="about__image">
+              <Avatar />
+              {/* <img src="https://cdn.getslowly.com/assets/images/avatar/other/user/MnAMvAW4nL/7.png" alt='avatar' /> */}
+            </div>
+            <Button onClick={onClickResume} text="Resume" />
             <div className="about__links">
               <a href="http://www.github.com" target="_blank">
                 <span>

@@ -35,17 +35,60 @@
             transition: all 0.1s ease-in-out;
 
             &:hover {
-              opacity: 0.9;
+              opacity: 0.95;
+              color: rgb(255, 241, 255);
             }
           }
         }
       }
 
       .about__image {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        border: 2px solid rgb(0, 0, 0);
         height: 200px;
         width: 200px;
-        background-color: #bbb;
+        background-color: rgb(59, 49, 62);
         border-radius: 50%;
+
+        // & svg {
+        //   filter: grayscale(10%);
+        // }
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          opacity: 0.6;
+          opacity: 0.15;
+          filter: none;
+          background: rgb(153, 97, 153);
+          transition: all 0.2s ease-in-out;
+        }
+
+        &:hover::after {
+          opacity: 0;
+        }
+
+        &:hover svg {
+          filter: grayscale(0%);
+        }
+
+        & img {
+          position: relative;
+          justify-self: center;
+          align-self: center;
+          width: 196px;
+          height: 196px;
+          border-radius: 50%;
+          // filter: grayscale(100%);
+        }
       }
 
       .about__text {

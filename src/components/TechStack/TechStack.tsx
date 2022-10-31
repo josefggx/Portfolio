@@ -3,7 +3,6 @@ import './TechStack.scss';
 export const TechStack = () => {
   return (
     <>
-      <h3 className="techstack__title">Tech Stack:</h3>
       <ul className="techstack__list">
         <li className="techstack__item">HTML5</li>
         <li className="techstack__item">CSS / SASS</li>

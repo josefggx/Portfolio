@@ -1,0 +1,128 @@
+.experience__container {
+  margin: 0 auto 30px auto;
+  max-width: 100%;
+}
+
+.experience__btnContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
+}
+
+.experience__btn {
+  font-family: 'Bitter', sans-serif;
+  border-radius: 0;
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 0;
+  // line-height: 1;
+  color: white;
+  outline-color: hsl(186, 100%, 94%);
+}
+
+.experience__btn:hover {
+  color: rgb(213, 144, 213);
+  box-shadow: 0 2px rgb(153, 97, 153);
+}
+
+.experience__btn--active {
+  background-color: #252125;
+  color: rgb(229, 148, 229);
+  box-shadow: 0 2px rgb(229, 148, 229);
+}
+
+.experience__info h3 {
+  font-family: 'Bitter', sans-serif;
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+
+.experience__info h4 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: hsl(292, 20%, 30%);
+  background: hsl(293, 53%, 93%);
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 0.25rem;
+  font-family: 'Bitter', sans-serif;
+  margin-bottom: 0.3rem;
+}
+
+.experience__date {
+  letter-spacing: 0.1rem;
+  color: rgb(231, 207, 230);
+  opacity: 0.9;
+  // font-size: 1.6rem;
+  font-family: 'Bitter', sans-serif;
+}
+
+.experience__desc {
+  margin-bottom: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.experience__desc li {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 0;
+  color: white;
+  list-style: none;
+  list-style-position: outside;
+
+  &::before {
+    content: '✦';
+    font-weight: 900;
+  }
+  &:hover::before {
+    color: rgb(214, 122, 214);
+  }
+}
+
+.job-icon {
+  color: #2caeba;
+}
+
+@media screen and (min-width: 992px) {
+  .experience__container {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    column-gap: 4rem;
+  }
+
+  .experience__btnContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .experience__btn {
+    box-shadow: -2px 0 rgb(71, 63, 71);
+    // margin-bottom: 1rem;
+    padding: 10px;
+  }
+
+  .experience__btn:hover {
+    background-color: #252125;
+    box-shadow: -2px 0 rgb(71, 63, 71);
+  }
+
+  .experience__btn--active {
+    box-shadow: -2px 0 rgb(209, 133, 209);
+
+    &:hover {
+      box-shadow: -2px 0 rgb(214, 122, 214);
+    }
+  }
+}

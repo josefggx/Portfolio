@@ -6,9 +6,20 @@
 .experience__btnContainer {
   display: flex;
   flex-direction: row;
+  margin: -8px auto 20px auto;
   justify-content: center;
-  margin-bottom: 4rem;
-  flex-wrap: wrap;
+  // width: 100%;
+  // flex-wrap: wrap;
+
+  @media (max-width: 376px) {
+    justify-content: flex-start;
+    width: 280px;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      height: 4px;
+    }
+  }
 }
 
 .experience__btn {
@@ -23,7 +34,7 @@
   cursor: pointer;
   margin: 0;
   padding: 10px;
-  margin-bottom: 0;
+  margin-bottom: 4px;
   // line-height: 1;
   color: white;
   outline-color: hsl(186, 100%, 94%);
@@ -35,7 +46,6 @@
 }
 
 .experience__btn--active {
-  background-color: #252125;
   color: rgb(229, 148, 229);
   box-shadow: 0 2px rgb(229, 148, 229);
 }
@@ -60,9 +70,9 @@
 }
 
 .experience__date {
-  letter-spacing: 0.1rem;
-  color: rgb(231, 207, 230);
-  opacity: 0.9;
+  color: hsl(292, 51%, 89%);
+  font-weight: 400;
+  opacity: 1;
   // font-size: 1.6rem;
   font-family: 'Bitter', sans-serif;
 }
@@ -103,6 +113,7 @@
   }
 
   .experience__btnContainer {
+    margin: 0;
     flex-direction: column;
     justify-content: flex-start;
   }
@@ -114,11 +125,12 @@
   }
 
   .experience__btn:hover {
-    background-color: #252125;
+    background-color: #1f1b1f;
     box-shadow: -2px 0 rgb(71, 63, 71);
   }
 
   .experience__btn--active {
+    background-color: #1f1b1f;
     box-shadow: -2px 0 rgb(209, 133, 209);
 
     &:hover {

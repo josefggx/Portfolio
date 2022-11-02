@@ -6,10 +6,11 @@
 .experience__btnContainer {
   display: flex;
   flex-direction: row;
-  margin: -8px auto 20px auto;
+  margin: -8px auto 24px auto;
   justify-content: center;
   // width: 100%;
   // flex-wrap: wrap;
+  
 
   @media (max-width: 376px) {
     justify-content: flex-start;
@@ -34,7 +35,6 @@
   cursor: pointer;
   margin: 0;
   padding: 10px;
-  margin-bottom: 4px;
   // line-height: 1;
   color: white;
   outline-color: hsl(186, 100%, 94%);
@@ -121,7 +121,7 @@
   .experience__btn {
     box-shadow: -2px 0 rgb(71, 63, 71);
     // margin-bottom: 1rem;
-    padding: 10px;
+    padding: 12px;
   }
 
   .experience__btn:hover {

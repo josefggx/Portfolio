@@ -5,10 +5,8 @@
   border-radius: 1px solid white;
   flex-shrink: 0;
   cursor: pointer;
-}
-
-.btn {
   border: none;
+  border-radius: 8px;
   text-transform: uppercase;
   overflow: hidden;
   position: relative;
@@ -18,29 +16,28 @@
   background-color: rgb(54, 54, 54);
   padding: 10px 32px;
   margin: 0 auto;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 
   .btn:focus {
     border: none;
   }
-
 }
 
 .btn span {
-  position: relative; 
+  position: relative;
   z-index: 1;
 }
 
 .btn:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
   height: 490%;
   width: 140%;
   background: rgb(153, 97, 153);
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }

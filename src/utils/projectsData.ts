@@ -13,7 +13,7 @@ export const projectsData: projectsDataTypes = [
     id: '2',
     type: 'work',
     image:
-      'https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png',
+      'https://res.cloudinary.com/josefggx-cloud/image/upload/v1667612430/Portfolio/301436521_131834572902915_514818785872804505_n_k8vjil.png',
     tech: ['react native', 'typescript', 'redux', 'node'],
     title: 'AceMate',
     summary:
@@ -25,7 +25,7 @@ export const projectsData: projectsDataTypes = [
     id: '1',
     type: 'personal',
     image:
-      'https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/01/top-10-DS-projects.png',
+      'https://res.cloudinary.com/josefggx-cloud/image/upload/v1667612506/Portfolio/Data_architect_INESDI_1_larerg.jpg',
     tech: ['react', 'typescript', 'sass'],
     title: 'Personal Portfolio',
     summary:

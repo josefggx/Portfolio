@@ -19,7 +19,9 @@ export const ProjectCard = () => {
             <h1 className="projectCard__title">{project.title}</h1>
             <div className="projectCard__tech">
               {project.tech.map((techName) => (
-                <span>{techName}</span>
+                <span className={`techName ${techName}`} key={techName}>
+                  {techName}{" "}
+                </span>
               ))}
             </div>
             <p className="projectCard__summary">

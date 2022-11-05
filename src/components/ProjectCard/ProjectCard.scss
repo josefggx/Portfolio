@@ -72,17 +72,46 @@ a {
     position: relative;
     .projectCard__title {
       font-size: 3rem;
+      font-family: 'Bitter', sans-serif;
       line-height: 1;
     }
     .projectCard__tech {
+      font-size: 1.1rem;
       font-size: 1.2rem;
-      font-weight: 400;
-      text-transform: uppercase;
-      margin: 1rem 0 1.5rem 0;
+      text-transform: capitalize;
+      // text-transform: uppercase;
+      margin: 8px 0 12px 0;
+      .techName {
+        background-color: rgb(101, 101, 101);
+        margin-right: 8px;
+        border-radius: 8px;
+        padding: 4px 8px;
+        // font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        // color: black;
+      }
+      .react {
+        background-color: #2fa2c250;
+      }
+
+      .typescript {
+        background-color: #2d79c750;
+      }
+      .redux {
+        background-color: #6f3cbc50;
+      }
+      .node {
+        background-color: #62a45c50;
+      }
+      .sass {
+        background-color: #dc68a250;
+      }
     }
     .projectCard__summary {
       position: relative;
       line-height: 1.5;
+      font-size: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
       &:first-letter {
         margin-left: 1rem;
       }

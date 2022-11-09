@@ -139,6 +139,7 @@ a {
       & a {
         color: rgba(239, 239, 239, 0.704);
         transition: all 0.2s ease-in-out;
+        cursor: pointer;
 
         &:hover {
           opacity: 0.95;

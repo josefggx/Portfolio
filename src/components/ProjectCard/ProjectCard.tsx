@@ -38,7 +38,7 @@ export const ProjectCard = () => {
                       <i className="fa-brands fa-instagram"></i>
                     </span>
                   </a>
-                  <a href="http://www.github.com" target="_blank">
+                  <a href={project.livepage} target="_blank">
                     <span>
                       <i className="fa-solid fa-arrow-up-right-from-square"></i>
                     </span>

@@ -1,10 +1,12 @@
 import { Title } from '../../components/Title/Title';
-import './HomeContactPage.scss'
+import './HomeContactPage.scss';
 
 export const HomeContactPage = () => {
   return (
     <section id="contact" className="section contact">
-      <Title title="Contact me" />
+      <div className="contact__container">
+        <Title title="Contact me" />
+      </div>
     </section>
   );
-}
+};

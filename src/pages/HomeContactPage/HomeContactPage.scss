@@ -1,6 +1,14 @@
 .contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(29, 59, 58);
+  padding: 90px 10px 0 10px;
+  background-color: rgb(59, 29, 29);
+  height: 100vh;
+
+  .contact__container {
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: rgb(27, 12, 12);
+  }
 }

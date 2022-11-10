@@ -1,21 +1,12 @@
-:root {
-  --gradient-color: linear-gradient(to right bottom, #af74b4c0, #5c325ec1);
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .projectCard {
-  margin: 0 auto;
+  margin: 24px auto;
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   box-shadow: 2px 0.8rem 1rem rgba(0, 0, 0, 0.5);
   background-color: rgb(56, 56, 56);
   border-radius: 30px;
-  margin-bottom: 32px;
+  margin-bottom: 48px;
 
   .projectCard__image {
     height: 25rem;
@@ -41,7 +32,7 @@ a {
     .projectCard__details {
       width: 100%;
       height: 100%;
-      background: var(--gradient-color);
+      background: linear-gradient(to right bottom, #af74b4c0, #5c325ec1);
       font-size: 1.4rem;
       color: #fff;
       font-weight: bold;
@@ -123,7 +114,7 @@ a {
         left: 0;
         width: 0.5rem;
         height: 2.5rem;
-        background: var(--gradient-color);
+        background: #6e3d71;
         border-radius: 2rem;
       }
     }

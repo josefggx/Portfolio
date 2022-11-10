@@ -25,10 +25,7 @@ export const ProjectCard = () => {
               ))}
             </div>
             <p className="projectCard__summary">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
-              pariatur nemo quaerat sunt, modi nihil cum dolorum sed harum
-              ducimus ex officia quod praesentium culpa quia quas, libero
-              consequuntur omnis?
+                {project.summary}
             </p>
             <div className="projectCard__btnContainer">
               {project.type === 'work' ? (

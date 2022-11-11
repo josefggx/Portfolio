@@ -3,12 +3,13 @@ import './Button.scss';
 
 interface ButtonProps {
   text: String;
+  type?: 'submit';
   onClick: MouseEventHandler<HTMLButtonElement>;
 }
 
-export const Button = ({ text, onClick }: ButtonProps) => {
+export const Button = ({ text, type, onClick }: ButtonProps) => {
   return (
-    <button onClick={onClick} className="btn">
+    <button type={type ? 'submit' : 'button'} onClick={onClick} className="btn">
       <span>{text}</span>
     </button>
   );

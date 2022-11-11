@@ -1,0 +1,38 @@
+.form {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+
+  & p {
+    // text-align: left;
+    margin: -8px 0 20px 0;
+    font-family: 'Roboto Mono', sans-serif;
+    word-spacing: -2px;
+  }
+}
+
+.form__input {
+  color: white;
+  word-spacing: -2px;
+  font-size: 1.8rem;
+  border-radius: 6px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid rgb(153, 97, 153);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.form__input:focus {
+  border: 2px solid rgb(110, 43, 110);
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}

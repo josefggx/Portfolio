@@ -7,7 +7,6 @@ export const HomeContactPage = () => {
     <section id="contact" className="section contact">
       <div className="contact__container">
         <Title title="Contact me" />
-        
         <Form />
       </div>
     </section>

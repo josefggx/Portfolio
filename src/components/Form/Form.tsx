@@ -35,7 +35,7 @@ export const Form = () => {
       return;
     }
     if (form && /^\S+@\S+\.\S+$/.test(formValues.email)) {
-      form.action = 'https://formsubmit.co/josefggx@gmail.com';
+      form.submit();
       alert("Thank you! You'll hear from me soon!");
       form.reset();
     } else {
@@ -44,7 +44,11 @@ export const Form = () => {
   };
 
   return (
-    <form className="form" action="" method="POST">
+    <form
+      className="form"
+      action="https://formsubmit.co/9d4c6b298aee9a96aebacd1f315b7186"
+      method="POST"
+    >
       <p>
         Feel free to reach me via email, LinkedIn, or, if you prefer, you can
         use the contact form below to send me a message.
@@ -72,8 +76,12 @@ export const Form = () => {
         placeholder="Message"
         onChange={onInputChange}
       ></textarea>
-      <input type="hidden" name="_next" value="#contact"></input>
-      <Button text="Submit" type="submit" onClick={submitHandler} />
+      <input
+        type="hidden"
+        name="_next"
+        value={window.location.href}
+      ></input>
+      <Button text="Submit" onClick={submitHandler} />
     </form>
   );
 };

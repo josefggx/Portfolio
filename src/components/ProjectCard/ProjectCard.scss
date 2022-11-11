@@ -1,5 +1,5 @@
 .projectCard {
-  margin: 24px auto;
+  margin: 36px auto;
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
@@ -13,6 +13,9 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
     .projectCard__backgroundLayer {
       border-top-left-radius: 20px;
       border-bottom-left-radius: 20px;
@@ -61,6 +64,8 @@
     background-color: rgb(35, 35, 35);
     padding: 2rem 3rem;
     position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     .projectCard__title {
       color: whitesmoke;
       font-size: 3rem;

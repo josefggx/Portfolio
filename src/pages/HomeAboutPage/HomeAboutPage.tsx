@@ -35,7 +35,7 @@ export const HomeAboutPage = () => {
           <div className="about__info">
             <div className="about__image">
               <Avatar />
-              {/* <img src="/public/nice-avatar.png" alt='avatar' /> */}
+              {/* <img src="/src/assets/nice-avatar.png" alt="avatar" /> */}
             </div>
             <Button onClick={onClickResume} text="Resume" />
             <div className="about__links">

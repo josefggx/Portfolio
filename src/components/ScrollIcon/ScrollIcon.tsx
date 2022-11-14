@@ -11,10 +11,5 @@ export const ScrollIcon = () => {
     <HashLink className='mouse__container' smooth to="#about" onClick={handleClick}>
       <div className="mouse"></div>
     </HashLink>
-    // <div onClick={handleClick} className="mouse"></div>
-    // <div className="scroll-down">
-    //   <div className="scroll-down-text">SCROLL DOWN</div>
-    //   <div className="scroll-down-bar"></div>
-    // </div>
   );
 };

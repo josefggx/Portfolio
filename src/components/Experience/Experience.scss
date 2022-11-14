@@ -8,9 +8,6 @@
   flex-direction: row;
   margin: -8px auto 24px auto;
   justify-content: center;
-  // width: 100%;
-  // flex-wrap: wrap;
-  
 
   @media (max-width: 376px) {
     justify-content: flex-start;
@@ -35,19 +32,18 @@
   cursor: pointer;
   margin: 0;
   padding: 10px;
-  // line-height: 1;
   color: white;
-  outline-color: hsl(186, 100%, 94%);
+  outline-color: whitesmoke;
 }
 
 .experience__btn:hover {
-  color: rgb(213, 144, 213);
-  box-shadow: 0 2px rgb(153, 97, 153);
+  color: var(--color-secondary-6);
+  box-shadow: 0 2px var(--color-secondary-4);
 }
 
 .experience__btn--active {
-  color: rgb(229, 148, 229);
-  box-shadow: 0 2px rgb(229, 148, 229);
+  color: var(--color-secondary-6);
+  box-shadow: 0 2px var(--color-secondary-6);
 }
 
 .experience__info h3 {
@@ -60,8 +56,8 @@
 .experience__info h4 {
   font-size: 1.4rem;
   text-transform: uppercase;
-  color: hsl(292, 20%, 30%);
-  background: hsl(293, 53%, 93%);
+  color: var(--color-secondary-2);
+  background: var(--color-secondary-8);
   display: inline-block;
   padding: 2px 6px;
   border-radius: 0.25rem;
@@ -70,10 +66,9 @@
 }
 
 .experience__date {
-  color: hsl(292, 51%, 89%);
+  color: var(--color-secondary-8);
   font-weight: 400;
   opacity: 1;
-  // font-size: 1.6rem;
   font-family: 'Bitter', sans-serif;
 }
 
@@ -96,12 +91,8 @@
     font-weight: 900;
   }
   &:hover::before {
-    color: rgb(214, 122, 214);
+    color: var(--color-secondary-7);
   }
-}
-
-.job-icon {
-  color: #2caeba;
 }
 
 @media screen and (min-width: 992px) {
@@ -119,22 +110,21 @@
   }
 
   .experience__btn {
-    box-shadow: -2px 0 rgb(71, 63, 71);
-    // margin-bottom: 1rem;
+    box-shadow: -2px 0 var(--color-secondary-1);
     padding: 12px;
   }
 
   .experience__btn:hover {
-    background-color: #1f1b1f;
-    box-shadow: -2px 0 rgb(71, 63, 71);
+    background-color: var(--color-secondary-0);
+    box-shadow: -2px 0 var(--color-secondary-1);
   }
 
   .experience__btn--active {
     background-color: #1f1b1f;
-    box-shadow: -2px 0 rgb(209, 133, 209);
+    box-shadow: -2px 0 var(--color-secondary-5);
 
     &:hover {
-      box-shadow: -2px 0 rgb(214, 122, 214);
+      box-shadow: -2px 0 var(--color-secondary-5);
     }
   }
 }

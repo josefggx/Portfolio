@@ -11,7 +11,7 @@ export const HomeHeroPage = () => {
         <HeroFigure />
         <div className="hero__header">
           <h1 className="hero__title">José Gutiérrez</h1>
-          <p className="hero__subtitle">FRONTEND DEVELOPER</p>
+          <p className="hero__subtitle">SOFTWARE DEVELOPER</p>
         </div>
         <ScrollIcon />
       </section>

@@ -34,7 +34,7 @@
     }
 
     &:hover::before {
-      color: rgb(214, 122, 214);
+      color: var(--color-secondary-7);
     }
   }
 }

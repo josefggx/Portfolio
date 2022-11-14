@@ -112,9 +112,6 @@ export const Background = () => {
               duration: 3,
               opacity: 1,
               speed: 3,
-              // color: {
-              //   value: '#deafff',
-              // },
             },
             repulse: {
               distance: 200,
@@ -131,7 +128,7 @@ export const Background = () => {
         fpsLimit: 60,
         background: {
           image:
-            'linear-gradient(180deg, rgb(42, 36, 60) 0%, rgb(25, 23, 28) 100%)',
+            'linear-gradient(180deg, var(--color-primary-3) 0%, var(--color-primary-0) 100%)',
         },
         retina_detect: true,
       }}

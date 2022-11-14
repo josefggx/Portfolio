@@ -10,16 +10,17 @@
   min-width: 100px;
   width: 35vh;
   height: 35vh;
-  background-color: #2d283b;
-  box-shadow: #1a1725 10px 0px 40px 0px inset, #7b71a7 -10px 0px 20px 0px inset,
-    #242033 -40px 10px 100px 0px inset;
+  background-color: var(--color-primary-4);
+  box-shadow: var(--color-primary-1) 10px 0px 40px 0px inset,
+    var(--color-primary-5) -10px 0px 20px 0px inset,
+    var(--color-primary-2) -40px 10px 100px 0px inset;
   background-size: 1600% 1600%;
   transform-origin: 50% 50%;
   transform-style: preserve-3d;
   perspective: 1000px;
   -webkit-animation: transform 35s ease-in-out infinite both alternate,
     movement 40s ease-in-out infinite both;
-  animation: transform 35s ease-in-out infinite both alternate,
+  animation: transform 25s ease-in-out infinite both alternate,
     movement 40s ease-in-out infinite both;
 }
 

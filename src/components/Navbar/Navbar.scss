@@ -6,7 +6,7 @@
   height: 68px;
   width: 100%;
   z-index: 3;
-  background-color: #1f1f1f;
+  background-color: var(--background-color-1);
 
   & .navbar__logoborder {
     position: relative;
@@ -17,10 +17,22 @@
     height: 50px;
     border-radius: 50%;
     clip-path: polygon(0% 50%, 25% 95%, 75% 95%, 100% 50%, 75% 5%, 25% 5%);
-    background-color: #af74b4;
-    background: linear-gradient(270deg, #af74b4 0%, #5c325e 100%);
-    background: -moz-linear-gradient(180deg, #af74b4 0%, #5c325e 100%);
-    background: -webkit-linear-gradient(180deg, #af74b4 0%, #5c325e 100%);
+    background-color: var(--color-secondary-4);
+    background: linear-gradient(
+      270deg,
+      var(--color-secondary-4) 0%,
+      var(--color-secondary-3) 100%
+    );
+    background: -moz-linear-gradient(
+      180deg,
+      var(--color-secondary-4) 0%,
+      var(--color-secondary-3) 100%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      var(--color-secondary-5) 0%,
+      var(--color-secondary-3) 100%
+    );
     opacity: 0.85;
     transition: all 0.15s ease-in-out;
 
@@ -36,17 +48,16 @@
       justify-content: center;
       width: 44px;
       height: 44px;
-      background-color: #1f1f1f;
+      background-color: var(--background-color-1);
 
       &:hover {
         opacity: 1;
       }
 
       & .logo__text {
-        font-family: 'Inter', sans-serif;
         font-weight: 600;
         font-size: 1.8rem;
-        color: #b47fb8;
+        color: var(--color-secondary-5);
       }
     }
   }
@@ -61,7 +72,7 @@
     transition: all 0.3s linear;
 
     &:hover {
-      color: #af74b4;
+      color: var(--color-secondary-6);
     }
     &::before {
       content: '';
@@ -72,8 +83,8 @@
       margin: 0 auto;
       width: 0;
       height: 1.5px;
-      background: #af74b4;
-      transition: all .4s;
+      background: var(--color-secondary-6);
+      transition: all 0.4s;
     }
     &:hover::before {
       width: 100%;
@@ -95,7 +106,8 @@
     top: 60px;
     display: flex;
     flex-direction: column;
-    background-color: #21363f;
+    align-items: center;
+    background-color: var(--background-color-0);
     left: 0;
     width: 100vw;
     height: 100vh;

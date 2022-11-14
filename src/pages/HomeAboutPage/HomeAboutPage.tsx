@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Avatar } from '../../components/Avatar/Avatar';
 import { Button } from '../../components/Button/Button';
 import { Experience } from '../../components/Experience/Experience';
@@ -34,7 +33,6 @@ export const HomeAboutPage = () => {
             <br />
             <h2 className="item__title">Tech Stack</h2>
             <TechStack />
-            {/* <br /> */}
           </div>
           <div className="about__info">
             <div className="about__image">
@@ -61,7 +59,6 @@ export const HomeAboutPage = () => {
             </div>
           </div>
         </div>
-        {/* <Title title='Experience' /> */}
         <h2 className="experience__title">Experience & Education</h2>
         <Experience />
       </div>

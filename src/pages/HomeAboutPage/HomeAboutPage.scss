@@ -2,7 +2,6 @@
   padding: 90px 10px 0 10px;
   display: flex;
   justify-content: center;
-  // height: 100vh;
 
   .about__container {
     max-width: 900px;
@@ -42,7 +41,7 @@
 
             &:hover {
               opacity: 0.95;
-              color: rgb(255, 241, 255);
+              color: var(--color-secondary-9);
             }
           }
         }
@@ -53,36 +52,17 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        border: 2px solid rgb(27, 22, 28);
+        border: 2px solid var(--color-secondary-0);
         box-shadow: 2px 0.8rem 1rem rgba(0, 0, 0, 0.5);
         height: 200px;
         width: 200px;
-        background-color: rgb(59, 49, 62);
+        background-color: var(--color-secondary-1);
         border-radius: 50%;
         transition: all 0.3s ease-in-out;
 
         &:hover {
-          background: rgb(68, 57, 72);
+          background: var(--color-secondary-2);
         }
-
-        // & svg {
-        //   filter: grayscale(10%);
-        // }
-
-        // &::after {
-        //   content: '';
-        //   position: absolute;
-        //   top: 0;
-        //   left: 0;
-        //   width: 100%;
-        //   height: 100%;
-        //   border-radius: 50%;
-        //   opacity: 0.6;
-        //   opacity: 0.15;
-        //   filter: none;
-        //   background: rgb(153, 97, 153);
-        //   transition: all 0.2s ease-in-out;
-        // }
 
         &:hover::after {
           opacity: 0;
@@ -99,7 +79,6 @@
           width: 196px;
           height: 196px;
           border-radius: 50%;
-          // filter: grayscale(100%);
         }
       }
 
@@ -113,7 +92,6 @@
 }
 
 .experience__title {
-  // align-self: center;
   color: white;
   font-size: 25.5px;
   font-family: 'Bitter', sans-serif;

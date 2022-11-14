@@ -36,7 +36,7 @@ export const Form = () => {
     }
     if (form && /^\S+@\S+\.\S+$/.test(formValues.email)) {
       form.submit();
-      alert("Thank you! You'll hear from me soon!");
+      alert("Thank you! I'll get back to you soon!");
       form.reset();
     } else {
       alert('Please enter a correct email');

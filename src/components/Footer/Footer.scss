@@ -1,5 +1,5 @@
 footer {
-  border-top: 2px solid rgb(170, 101, 176);
+  border-top: 2px solid var(--color-secondary-4);
   bottom: 0;
   padding: 2.2rem 0;
   width: 100%;
@@ -10,7 +10,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
   .footer__links {
     display: flex;
     gap: 12px;
@@ -22,7 +22,7 @@ footer {
 
       &:hover {
         opacity: 0.95;
-        color: rgb(255, 241, 255);
+        color: var(--color-secondary-7);
       }
     }
   }

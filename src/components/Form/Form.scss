@@ -18,7 +18,7 @@
   border-radius: 6px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid rgb(153, 97, 153);
+  border: 2px solid var(--color-secondary-3);
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -28,7 +28,7 @@
 }
 
 .form__input:focus {
-  border: 2px solid rgb(110, 43, 110);
+  border: 2px solid var(--color-secondary-5);
 }
 
 textarea {

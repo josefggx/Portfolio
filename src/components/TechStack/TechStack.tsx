@@ -5,7 +5,7 @@ export const TechStack = () => {
     <>
       <ul className="techstack__list">
         <li className="techstack__item">HTML5</li>
-        <li className="techstack__item">CSS / SASS</li>
+        <li className="techstack__item">CSS / Sass</li>
         <li className="techstack__item">JavaScript</li>
         <li className="techstack__item">TypeScript</li>
         <li className="techstack__item">ReactJS</li>

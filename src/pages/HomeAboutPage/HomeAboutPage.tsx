@@ -21,14 +21,14 @@ export const HomeAboutPage = () => {
             <br />
             I'm in love with what I do since it combines creativity, logic, and
             problem-solving, and there's always something new to learn. Also,
-            I'm passionate about human sciences and try to be a better person,
-            friend, and colleague every day.
+            I'm passionate about human sciences and try to grow as a human being
+            and professional every day.
             <br />
             I'm committed to a philosophy of lifelong learning since I enjoy the
             feeling of discovering and improving. I've worked in management,
             finance, and technology. These experiences give me new perspectives
-            that help me adapt to projects, understand the business logic and be a
-            versatile and efficient developer.
+            that help me adapt to projects, understand the business logic and be
+            a versatile and efficient developer.
             <br />
             <br />
             <h2 className="item__title">Tech Stack</h2>

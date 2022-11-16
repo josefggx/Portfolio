@@ -79,7 +79,7 @@ export const Form = () => {
       <input
         type="hidden"
         name="_next"
-        value={window.location.href}
+        value={`${window.origin}/#contact`}
       ></input>
       <Button text="Submit" onClick={submitHandler} />
     </form>

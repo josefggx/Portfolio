@@ -23,7 +23,7 @@ export const projectsData: projectsDataTypes = [
       "AceMate is a virtual tennis platform that allows athletes and trainers to create matches and make court reservations quickly and effectively. This is the last project I've been working on in ZanaCode, developed using React Native.",
     description: '',
     instagram: 'https://www.instagram.com/acemate.col/',
-    livepage: '/public/acemate.png',
+    livepage: '/acemate.png',
   },
   {
     id: '1',
@@ -36,6 +36,6 @@ export const projectsData: projectsDataTypes = [
       'My portfolio started with the idea of ​​being a simple project that would serve to show my other projects. But, while I was doing it, it became a project in itself. I like to think it tells a bit about my story, style, and passion.',
     description: '',
     github: 'https://github.com/josefggx/Portfolio',
-    livepage: 'https://github.com/josefggx/Portfolio',
+    livepage: 'https://josegutierrez.live',
   },
 ];

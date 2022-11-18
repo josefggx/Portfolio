@@ -19,7 +19,7 @@ export const Footer = () => {
             <i className="fa-regular fa-envelope"></i>
           </span>
         </a>
-        <a href="/Jose-Gutierrez-Resume.pdf" target="_blank">
+        <a href="/Jose_Gutierrez_Resume.pdf" target="_blank">
           <span>
             <i className="fa-regular fa-note-sticky"></i>
           </span>

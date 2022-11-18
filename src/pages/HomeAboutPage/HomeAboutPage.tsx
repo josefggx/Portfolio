@@ -7,7 +7,7 @@ import './HomeAboutPage.scss';
 
 export const HomeAboutPage = () => {
   const onClickResume = () => {
-    window.open('Jose-Gutierrez-Resume.pdf', '_blank');
+    window.open('Jose_Gutierrez_Resume.pdf', '_blank');
   };
 
   return (

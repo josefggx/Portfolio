@@ -11,11 +11,8 @@ https://josegutierrez.live/
 
 ### Contact info:
 
-**Email**
-josefgutierrezx@gmail.com
+**Email**: josefgutierrezx@gmail.com
 
-**LinkedIn**
-https://www.linkedin.com/in/josefgutierrezg/
+**LinkedIn**: https://www.linkedin.com/in/josefgutierrezg/
 
-**Resume/CV**
-https://josegutierrez.live/Jose_Gutierrez_Resume.pdf
+**Resume/CV**: https://josegutierrez.live/Jose_Gutierrez_Resume.pdf

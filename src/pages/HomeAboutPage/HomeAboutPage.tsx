@@ -12,7 +12,12 @@ export const HomeAboutPage = () => {
 
   return (
     <section id="about" className="section about">
-      <div className="about__container">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-delay="150"
+        data-aos-once
+        className="about__container"
+      >
         <Title title="About me" />
         <div className="about__content">
           <div className="about__text">

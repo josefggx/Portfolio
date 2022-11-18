@@ -8,8 +8,19 @@ export const ScrollIcon = () => {
     );
   };
   return (
-    <HashLink className='mouse__container' smooth to="#about" onClick={handleClick}>
-      <div className="mouse"></div>
+    <HashLink
+      className="mouse__container"
+      smooth
+      to="#about"
+      onClick={handleClick}
+    >
+      <div
+        data-aos="fade-up"
+        data-aos-delay="1200"
+        data-aos-once
+        data-aos-offset='-300'
+        className="mouse"
+      ></div>
     </HashLink>
   );
 };

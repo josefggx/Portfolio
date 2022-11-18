@@ -6,7 +6,12 @@ import './HomeWorkPage.scss';
 export const HomeWorkPage = () => {
   return (
     <section id="work" className="section work">
-      <div className="work__container">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-delay="150"
+        data-aos-once
+        className="work__container"
+      >
         <Title title="Latest Work" />
         <ProjectCard />
         <Button

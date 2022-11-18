@@ -15,7 +15,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav data-aos="fade-down" data-aos-delay="200" className="navbar">
       <HashLink
         smooth
         to="#home"

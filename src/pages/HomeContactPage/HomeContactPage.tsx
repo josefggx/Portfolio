@@ -5,7 +5,12 @@ import './HomeContactPage.scss';
 export const HomeContactPage = () => {
   return (
     <section id="contact" className="section contact">
-      <div className="contact__container">
+      <div
+        data-aos="fade-zoom-in"
+        data-aos-delay="150"
+        data-aos-once
+        className="contact__container"
+      >
         <Title title="Contact me" />
         <Form />
       </div>

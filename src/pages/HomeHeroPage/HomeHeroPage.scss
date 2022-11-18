@@ -20,6 +20,7 @@
     var(--color-primary-3) 0%,
     var(--color-primary-0) 100%
   );
+  overflow-x: hidden;
 
   & .hero__header {
     z-index: 2;

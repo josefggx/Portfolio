@@ -59,7 +59,7 @@ export const Background = () => {
             random: true,
             anim: {
               enable: true,
-              speed: 1,
+              speed: 4,
               size_min: 0,
               sync: false,
             },
